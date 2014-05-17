@@ -13,7 +13,7 @@
   "keywords": [
     "tmp-sync"
   ],
-  "engines": { 
+  "engines": {
     "node": ">=0.8.0"
   },
   "author": "kael",
@@ -24,5 +24,8 @@
   "devDependencies": {
     "mocha": "~1.13.0",
     "chai": "~1.8.0"
+  },
+  "dependencies": {
+    "fs-sync": "^0.2.4"
   }
 }
