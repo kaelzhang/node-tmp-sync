@@ -29,7 +29,7 @@ tmp.in = function (root) {
             + Number( '' + Date.now() + Math.random() * 0x1000000000 ).toString(36)
     );
 
-    return tmp.dir(dir);
+    return tmp._dir(dir);
 };
 
 
