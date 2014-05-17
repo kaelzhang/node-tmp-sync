@@ -1,6 +1,6 @@
 {
   "name": "tmp-sync",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "tmp-sync",
   "main": "index.js",
   "scripts": {
