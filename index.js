@@ -6,7 +6,7 @@ var fs          = require('fs-sync');
 
 
 // by name
-tmp.dir = function (dir) {
+tmp._dir = function (dir) {
     dir = node_path.resolve(dir);
 
     if(!fs.isDir(dir)){
@@ -20,7 +20,7 @@ tmp.dir = function (dir) {
 
 
 // genarate an random name inside a directory
-tmp.make = function (root) {
+tmp.in = function (root) {
     // Everytime it returns a different directory
     var dir = node_path.join(
         root,

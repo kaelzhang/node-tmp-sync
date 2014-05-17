@@ -14,7 +14,7 @@ Only use this package in your test cases, not in production environment for you 
 var tmp = require('tmp-sync');
 ``` 
 
-### tmp.make(root)
+### tmp.in(root)
 
 - root `path` the root path for the temp directory
 

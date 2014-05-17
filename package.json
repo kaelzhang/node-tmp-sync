@@ -1,7 +1,7 @@
 {
   "name": "tmp-sync",
-  "version": "0.1.2",
-  "description": "tmp-sync",
+  "version": "1.0.0",
+  "description": "The sync version of tmp just for test cases, making it much easier.",
   "main": "index.js",
   "scripts": {
     "test": "make test"
@@ -11,7 +11,14 @@
     "url": "git@github.com:kaelzhang/node-tmp-sync.git"
   },
   "keywords": [
-    "tmp-sync"
+    "tmp-sync",
+    "temporary", 
+    "tmp", 
+    "temp", 
+    "tempdir", 
+    "tempfile", 
+    "tmpdir", 
+    "tmpfile"
   ],
   "engines": {
     "node": ">=0.8.0"
