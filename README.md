@@ -14,13 +14,15 @@ Only use this package in your test cases, not in production environment for you 
 var tmp = require('tmp-sync');
 ``` 
 
-### tmp.dir(dir)
+### tmp.make(root)
 
-- dir `path` the path of a directory
+- root `path` the root path for the temp directory
 
-Makes a dir as a temp dir.
+Makes a temp dir inside `root` and returns `path` the newly created dir.
 
 ### tmp.mark(dir)
+
+- dir `path` the path of a directory
 
 Marks a dir, and the dir will be removed when the current process exits.
 
