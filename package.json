@@ -12,12 +12,12 @@
   },
   "keywords": [
     "tmp-sync",
-    "temporary", 
-    "tmp", 
-    "temp", 
-    "tempdir", 
-    "tempfile", 
-    "tmpdir", 
+    "temporary",
+    "tmp",
+    "temp",
+    "tempdir",
+    "tempfile",
+    "tmpdir",
     "tmpfile"
   ],
   "engines": {
@@ -33,6 +33,7 @@
     "chai": "~1.8.0"
   },
   "dependencies": {
-    "fs-sync": "^0.2.4"
+    "fs-sync": "^0.2.4",
+    "osenv": "^0.1.0"
   }
 }

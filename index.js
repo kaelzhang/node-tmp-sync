@@ -21,6 +21,7 @@ tmp._dir = function (dir) {
 
 // genarate an random name inside a directory
 tmp.in = function (root) {
+    root = root || require('osenv').tmpdir();
     // Everytime it returns a different directory
     var dir = node_path.join(
         root,

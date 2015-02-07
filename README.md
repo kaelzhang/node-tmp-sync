@@ -16,7 +16,7 @@ var tmp = require('tmp-sync');
 
 ### tmp.in(root)
 
-- root `path` the root path for the temp directory
+- root `path` the root path for the temp directory (default to OS tmp directory)
 
 Makes a temp dir inside `root` and returns `path` the newly created dir.
 
