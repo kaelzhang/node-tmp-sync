@@ -29,11 +29,11 @@
     "url": "https://github.com/kaelzhang/node-tmp-sync/issues"
   },
   "devDependencies": {
-    "mocha": "~1.13.0",
-    "chai": "~1.8.0"
+    "chai": "~1.8.0",
+    "mocha": "~1.13.0"
   },
   "dependencies": {
-    "fs-sync": "^0.2.4",
+    "fs-sync": "^1.0.4",
     "osenv": "^0.1.0"
   }
 }

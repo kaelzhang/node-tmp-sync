@@ -2,7 +2,7 @@
 
 var tmp         = exports;
 var node_path   = require('path');
-var fs          = require('fs-sync'); 
+var fs          = require('fs-sync');
 
 
 // by name
@@ -19,13 +19,13 @@ tmp._dir = function (dir) {
 };
 
 
-// genarate an random name inside a directory
+// generate a random name inside a directory
 tmp.in = function (root) {
     root = root || require('osenv').tmpdir();
     // Everytime it returns a different directory
     var dir = node_path.join(
         root,
-        'tmp-' 
+        'tmp-'
             + process.pid + '-'
             + Number( '' + Date.now() + Math.random() * 0x1000000000 ).toString(36)
     );
