@@ -12,17 +12,17 @@ Only use this package in your test cases, not in production environment for you 
 
 ```js
 var tmp = require('tmp-sync');
-``` 
+```
 
-### tmp.in(root)
+### tmp.in([root])
 
-- root `path` the root path for the temp directory (default to OS tmp directory)
+- **root** `path=` the root path for the temp directory (optional, default to OS tmp directory)
 
-Makes a temp dir inside `root` and returns `path` the newly created dir.
+Makes a temp dir inside `root` and returns the newly created dir. The dir will be automatically `tmp.mark()`ed.
 
 ### tmp.mark(dir)
 
-- dir `path` the path of a directory
+- **dir** `path` the path of a directory
 
 Marks a dir, and the dir will be removed when the current process exits.
 
